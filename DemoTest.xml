@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DemoTest" verbose="1" >
+<parameter name="Browser" value="chrome" /> 
+  <test name="testngTest" >
+    <classes>
+       <class name="GreatLearning.DemoTest.Registration">
+        <methods>
+        <include name="LaunchingApplication" />
+        <include name="verifyingBasicInformationPageAndEnteringData" />
+        <include name="verifyingProfessionalDetailsPageAndEnteringData" />
+        <include name="verifyingUerProgrammingExperiancePageAndEnteringData" />
+        <include name="verifyingUserEducationPageAndEnteringData" />
+        <include name="verifyingLinkedinProfileEnterTextAndEnteringData" />
+        <include name="verifyingLFinalSubmission" />
+        </methods>
+        
+        
+       </class>
+    </classes>
+  </test>
+</suite>
