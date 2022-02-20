@@ -8,6 +8,7 @@ Following tols are used
 4. Extent Report
 5. Log4j
 6. eclipse/Intelj IDE
+7. Resouces folder to have test data and locators --- config, properties to store locators and testdata.properties for test data
 
 How to Run
 1. CLone the project into ur local repo -- git clone https://github.com/sunilsdinfo/GreatLearnigTest.git
