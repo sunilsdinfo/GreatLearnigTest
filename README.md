@@ -17,7 +17,7 @@ How to Run
 
 or
 1. CLone the project into ur local repo -- git clone https://github.com/sunilsdinfo/GreatLearnigTest/tree/master.git
-2. Navigate to project folder and run  mvn test
+2. Navigate to project folder and run  mvn test    Install maven if its not installed, then use this command
 3. After successful execution observe the report in extent report folder
 
 
